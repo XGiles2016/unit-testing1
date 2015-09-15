@@ -36,6 +36,7 @@ public class StudentTest {
         s1.setCurrentEarnedCr(credits);
         assertEquals(40, s1.getCurrentEarnedCr());
     }
+    
     @Test
     public void testAnticipatedAddtlCredits(){
         int credits = 45;
@@ -93,4 +94,6 @@ public class StudentTest {
         boolean expResult = false;
         assertEquals(expResult, s1.readyToGraduate());  
     }
+    
+    
 }
